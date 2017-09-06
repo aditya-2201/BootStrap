@@ -1,0 +1,243 @@
+
+html, body{
+   min-width: 500px;
+}
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#stories {
+   text-align: center;
+}
+
+#stories img {
+   margin: 0 0 20px;
+}
+
+.tab-content{
+   margin-top: 10px;
+}
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body {
+   -webkit-font-smoothing: antialiased;
+   text-rendering: optimizelegibility;
+}
+
+.well .page-header {
+   margin-top: 0;
+}
+
+.well .page-header h1 {
+   margin-top: 0;
+}
+
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+}
+
+footer {
+   background: #333;
+   color: #eee;
+   font-size: 14px;
+   padding: 10px 78px;
+   height: 100px;
+}
+footer img {
+width: 35px;
+padding: 3px;
+border: 0;
+box-shadow: 0;
+display: inline;
+}
+
+h5{
+   margin:0;
+   padding-bottom: 20px;
+}
+footer ul li{
+   display: inline;
+   padding-right: 20px;
+}
+footer ul{
+   padding-left: 80px;
+   padding-top: 10px;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+.navbar{
+   
+   max-width: 1170px;
+   margin: auto;
+   margin-top: 10px;
+   padding-bottom: 5px;
+    
+}
+
+.navbar-brand{
+   max-width: none;
+   vertical-align: middle;
+   padding: 0px 0px 0px 0px;
+}
+.navbar-brand h1{
+   display: inline;
+}
+.navbar-brand img{
+   vertical-align: top;
+   width: 50px;
+   height: 50px;
+}
+.navbar-brand h1 strong{
+   padding-left: 10px;
+   font-size: 30px;
+   padding-right: 40px;
+}
+.navbar-nav{
+   padding-right: 140px;
+}
+
+.navbar-nav li{
+   padding-right: 20px;
+} 
+#SearchInput{
+   width: 200px;
+} 
+
+.navbar-form{
+   margin: 0px 0px;
+   padding-top: 6px;
+} 
+.btn-group{
+   padding-top: 6px;
+}
+
+.btn{
+   border-radius: 10px;
+}
+
+ 
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#myCarousel .item{ height: 400px;}   
+
+#slide1{
+   background: url('../../images/background1.jpg') top center no-repeat;
+}
+   
+#slide2{
+   background: url('../../images/background1.jpg') top center no-repeat;
+}
+
+#slide3{
+   background: url('../../images/background1.jpg') top center no-repeat;
+}  
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert {
+   margin-top: 20px;
+   display: none;
+}
+
+.well {
+   margin: 20px 0;
+}
+
+
+.modal img{
+float: left;
+padding: 0px 15px;
+}
+
+form p{
+   margin: 0 0;
+}
+form ul li{
+padding-bottom: 10px;
+margin : 0 0;
+}
+
+ul{
+   list-style: none;
+}
+
+textarea{
+   width: 460px;
+   height: 100px;
+}
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+   
+   
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+   
+   #myCarousel .item { height: 310px; }
+   
+   #slide1 {
+      background: url('../../images/summer-and-winter.jpg') top center no-repeat;
+   }
+   
+   #slide2 {
+      background: url('../../images/summer-and-winter.jpg') top center no-repeat;
+   }
+   
+   #slide3 {
+      background: url('../../images/summer-and-winter.jpg') top center no-repeat;
+   }
+   
+   .carousel-caption {
+      font-size: 16px;
+   }
+   
+   .carousel-caption h4 {
+      font-size: 22px;
+   }
+   
+}
+
+}
+ 
+
+/* Large desktop */
+@media (min-width: 1200px) {
+ 
+
+   #myCarousel .item { height: 500px; }
+   
+   #slide1 {
+      background: url('../../images/summer-and-winter.jpg') top center no-repeat;
+   }
+   
+   #slide2 {
+      background: url('../../images/summer-and-winter.jpg') top center no-repeat;
+   }
+   
+   #slide3 {
+      background: url('../../images/summer-and-winter.jpg') top center no-repeat;
+   }
+
+}
